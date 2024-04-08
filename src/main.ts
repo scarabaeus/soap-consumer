@@ -3,7 +3,7 @@ import { createClient } from 'soap';
 
 const testUrls: Record<
   string,
-  { url: string; args: any; service: string; method: string }
+  { url: string; args: unknown; service: string; method: string }
 > = {
   calculator: {
     url: 'http://www.dneonline.com/calculator.asmx?WSDL',
